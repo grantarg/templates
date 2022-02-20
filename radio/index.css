@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #dbdbdb;
+    padding: 7px;
+    display: inline-flex;
+    border-radius: 500px;
+}
+
+.radio__input {
+    display: none;
+}
+
+.radio__label {
+    background-color: #dbdbdb;
+    padding: 15px;
+    border-radius: 500px;
+}
+
+.radio__input:checked + .radio__label {
+    background-color: rgb(73, 131, 255);
+    transition: 0.4s ease;
+}
