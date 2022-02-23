@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Archivo Black';
+}
+
+section {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container h1 {
+    font-size: 4em;
+    /* background: linear-gradient(60deg, #4a095c, #500961, #610a6e, #7e0a81, #9a0a8d, #b60a8f, #d40889, #f1077b, #fb166b, #fd2762, #ff345e, #ff385d); */
+    background: linear-gradient(150deg, #25295c, #262a62, #292b75, #312d92, #3f2eb8, #5b39d9, #8358e7, #a879f2, #c699f9, #dcb6fd, #e8caff, #ecd1ff);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
