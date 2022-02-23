@@ -13,11 +13,11 @@ body {
     width: 100vw;
 }
 
-.container {
+.container__slider {
     background-color: #dbdbdb;
     padding: 7px;
     display: inline-flex;
-    border-radius: 500px;
+    border-radius: 500px; 
 }
 
 .radio__input {
